@@ -5,11 +5,11 @@ public class Entity {
   private int width;
   private int height;
 
-  Entity(int valueX, int valueY, int valueWidth, int valueHeight) {
-    x = valueX;
-    y = valueY;
-    width = valueWidth;
-    height = valueHeight;
+  Entity(int x, int y, int width, int height) {
+    this.x      = x;
+    this.y      = y;
+    this.width  = width;
+    this.height = height;
   }
 
   public void draw() {
