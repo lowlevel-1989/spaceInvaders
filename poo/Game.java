@@ -2,9 +2,13 @@ class Game {
 
   public static void main(String args[]) {
 
-    Entity rect = new Entity(10, 40, 200, 400);
+    Math mate = new Math();
+    
+    mate.sumVoid(5, 5);
 
-    rect.draw();
+
+    int result = mate.sum(2, 4);
+    System.out.println(String.format("result in main: %s", result));
 
   }
 }
